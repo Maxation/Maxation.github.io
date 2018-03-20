@@ -1,0 +1,134 @@
+#navbar 
+{
+  padding-right: 10%;
+    padding-left: 10%;
+}
+p3
+{
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+p2
+{
+    color: black;
+}
+h1
+{
+   color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#navbar a 
+{
+    font-family: 'IBM Plex Mono', monospace;
+     font-size: 18px;
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    text-decoration:none; 
+}
+
+#navbar a:hover 
+{
+    background-color: black;
+    color: white;
+}
+body    
+{
+    background-color: white;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+}
+ .dropdown 
+{
+    font-family: 'IBM Plex Mono',monospace;
+  float: right;
+    text-align: center;
+    display: block;
+}
+.dropdown .dropbtn 
+{
+  font-size: 18px; 
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+}
+.navbar a:hover, .dropdown:hover .dropbtn 
+{
+  background-color: white;
+}
+.dropdown-content 
+{
+    font-family: 'IBM Plex Mono', monospace;
+  display: none;
+  position: absolute;
+  background-color:white;
+  width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content 
+{
+  display:grid;
+}
+div.-content
+{
+    white-space: nowrap;
+    overflow: auto;
+}
+div.navbar a
+{
+     display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+ body, html 
+{
+    height: 100%;
+}
+.hero-image 
+{
+    background-image: url("photographer.jpg");
+    height: 50%;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* text in der mitte */
+.hero-text 
+{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+.zitat
+{
+    text-align: center;
+    position: absolute;
+    font-family: 'Share Tech', sans-serif;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+  
+
+
