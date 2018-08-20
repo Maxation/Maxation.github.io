@@ -1,0 +1,9 @@
+### macOS ###
+# General
+.DS_Store
+.DS_Store(1)
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
